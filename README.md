@@ -1,5 +1,14 @@
-# 🔍 TruthLens: NLP-Based News Authenticity Detection System
+# 🔍 TruthLens: NLP Fake News Detection
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-brightgreen)](https://streamlit.io)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://python.org)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.3+-orange)](https://scikit-learn.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live-brightgreen)](http://localhost:8501)
+
+## 🎯 Features
+- 98.86% Accuracy
+- Real-time prediction
+- Interactive dashboard
+
+## 🚀 Quick Start
+```bash
+pip install -r requirements.txt
+python train_model.py
+streamlit run app.py
